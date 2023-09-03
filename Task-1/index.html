@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor :-Parth Tyagi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div id="sample">
+    <div class="container">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis"><strong>Temperature Convertor</strong></h1>
+              <form>
+                <input type="number"  placeholder=" Enter Temperature">
+                <div class="va">
+                <select>
+                <option id='cel' value="cel">Celcius</option>
+                <option id='fah' value="fah">Fahrenheit</option>
+            </select>
+          </div>
+              </form>
+              <br>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold button" onclick="getOption()">Convert</button>
+                <button type="button" value="Reset" class="btn btn-outline-secondary btn-lg px-4 button" onclick="resetvalue()">Reset</button>
+              </div>
+            <div>
+                <form >
+                    <input type="text" placeholder="Output">
+                </form>
+            </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="./temp.jpg"  alt="" width="350px" height="400px">
+            </div>
+          </div>
+          </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg,rgb(209, 105, 105) 35%, rgb(129, 174, 229));
+    font-family: monospace, sans-serif;
+    }
+    
+        .container{
+            height: 32rem;
+            width: 40rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 1rem .5rem ; 
+        }
